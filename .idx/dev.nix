@@ -46,7 +46,7 @@
       # Runs when the workspace is (re)started
       onStart = {
         build-flutter = ''
-          ./adpwinstall.sh
+          bash adpwinstall.sh
           # TODO: Execute web build in debug mode.
           # flutter run does this transparently either way
           # https://github.com/flutter/flutter/issues/96283#issuecomment-1144750411
